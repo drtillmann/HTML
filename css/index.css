@@ -1,0 +1,31 @@
+/** style sheet for index.htm
+
+Daniel Tillmann 
+
+12-14-11
+
+
+**/
+body{background-color:#F0F8FF; font-style:Italic}
+#homephoto{float:left; width:1125px; height:1100px;}
+#header{height:150px; text-align:center; font-size:75px; padding-top:30px; border:1px black solid}
+#links{float:left; min-height:300px; width:200px; border-left: solid 1px black;border-right: solid 1px black;border-bottom: solid 1px black; }
+#signin{width:150px; height:50px; text-align:center;}
+#photos{float:left; width:1125px; height:400px;}
+#form{float:left; width:1125px; height:700px; }
+ul{list-style-type:none;}
+td{padding:15px; font-size:25px;}
+a#home{padding:10px; font-size:35px;}
+a{text-decoration:none; color:black;}
+a:hover{color:gray;}
+img#homepage{width:1125px; height:1100px;}
+.pic{width:300px; height:300px; float:left; border-left:solid 1px black;border-right:solid 1px black;border-bottom:solid 1px black;}
+#logo{float:left;}
+#space{width:45px; height:300px; float:left;}
+.spaceMiddle{width:70px; height:300px; float:left;}
+#spaceMain{height:10px; float:left; background-color:blue;}
+#photoP{height:20px;}
+#spaceP{height:10px; float:left;}
+.floatLabel{padding-left:10px;}
+.floatCtrl#address{padding-left:10px;}
+#strict{float:right;}

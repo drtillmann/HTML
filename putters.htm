@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+   <link rel="shortcut icon" href="images/logo.ico"></link>
+<title>Golfer's Choice</title> 
+</head>
+
+<body>
+<div id="header"><a href="index.htm"><img id="logo" src="images/logo.gif" alt="Main Page Logo"></img></a>Putters    
+<a id="strict" href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a></div>
+
+<div id="links">
+<div id="signin"></div>
+<table>
+<tr><td><a id="home" href="index.htm">Home</a></td></tr>
+<tr><td><a href="driver.htm">Drivers</a></td></tr>
+<tr><td><a href="irons.htm">Irons</a></td></tr>
+<tr><td><a href="putters.htm">Putters</a></td></tr>
+</table>
+</div>
+
+
+
+<div id="photos">
+	<div id="space"></div>
+	<div id="left"><img class="pic" src="images/backstryke.jpg" alt="Odyssey Backstryke"/></div>
+	<div class="spaceMiddle"></div>
+	<div id="middle"><img class="pic" src="images/whiteice.jpg" alt="Odyssey White Ice #4"/></div>
+	<div class="spaceMiddle"></div>
+	<div id="right"><img class="pic" src="images/whiteice2.jpg" alt="Odyssey White Ice #9"/></div>
+</div>
+<p>Choose the putter you would like to order below.</p>
+<div id="form">
+
+<form id="form1" action="#" method="post">
+	
+
+	<fieldset id="clubs">
+
+<input type="radio" name="putter" value="backstryke"/>Backstryke D.A.R.T.
+<input type="radio" name="putter" value="whiteice4"/>White Ice #4
+<input type="radio" name="putter" value="whiteice9"/>White Ice #9 
+<label class="floatLabel">Qauntity: </label>
+<select class="floatCtrl" id="qty">
+	<option value="1">1</option>
+    <option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+	<br/>
+	<br/>
+	</fieldset>
+	
+<fieldset>
+<label class="floatLabel">First Name:  </label>
+<input class="floatCtrl" size="30" maxlength="50"></input>
+
+<label class="floatLabel">M.I. :  </label>
+<input class="floatCtrl" size="1" maxlength="1"></input>
+
+<label class="floatLabel">Last Name:  </label>
+<input class="floatCtrl" size="30" maxlength="50"></input><br/>
+<br/>
+<br/>
+
+<label class="floatLabel">Address:  </label>
+<input class="floatCtrl" size="30" maxlength="50"></input>
+
+<label class="floatLabel">City:  </label>
+<input class="floatCtrl" size="30" maxlength="50"></input>
+
+<label class="floatLabel">State:  </label>
+<input class="floatCtrl" size="2" maxlength="2"></input>
+
+<label class="floatLabel">Zip:  </label>
+<input class="floatCtrl" size="5" maxlength="5"></input>
+<br/>
+<br/>
+
+<label class="floatLabel">Enter special instructions here:</label><br/>
+<textarea class="floatCtrl" id="address" rows="6" cols="50" ></textarea>	
+
+<input type="checkbox" id="agree"/><label id="agreeLabel" for="agree" class="floatLabel">Yes, I wish to pay by credit card.</label>
+<br/>
+<br/>
+</fieldset>
+<fieldset id="payment"><label for="cardType" class="floatLabel">Credit Card</label>
+	<select  class="floatCtrl" id="cardType">
+		<option value="Amex">American Express</option>
+		<option value="Disc">Discover</option>
+		<option value="MC">MasterCard</option>
+		<option value="Visa">Visa</option>
+	</select>
+
+<label class="floatLabel" for="cardName">Name on Card </label><input class="floatCtrl" id="cardName" type="text" maxlength="30"/>
+<label class="floatLabel" for="cardNumber">Card Number </label><input class="floatCtrl" id="cardNumber" type="text" maxlength="30"/>
+
+<label class="floatLabel">Expiration Date</label>
+<select class="floatCtrl" id="expMonth">
+	<option value="1">01</option>
+    <option value="2">02</option>
+	<option value="3">03</option>
+	<option value="4">04</option>
+	<option value="5">05</option>
+	<option value="6">06</option>
+	<option value="7">07</option>
+	<option value="8">08</option>
+	<option value="9">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+</select>
+
+<select class="floatCtrl" id="expYear">
+	<option value="2011">2011</option>
+    <option value="2012">2012</option>
+	<option value="2013">2013</option>
+	<option value="2014">2014</option>
+	<option value="2015">2015</option>
+</select>
+<br/>
+<br/>
+</fieldset>
+<fieldset id="buttons">
+	<input type="submit" value="Submit"/>
+	<input type="reset" value="Clear"/>
+</fieldset>
+	
+</form>
+</div>
+</body>
+</html>

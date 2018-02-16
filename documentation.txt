@@ -1,0 +1,25 @@
+/**
+
+This is the documentation page for index.htm, driver.htm, irons.htm, putters.htm
+
+
+
+**/
+
+Daniel Tillmann worked on the design and layout of all four pages.
+
+The "valid" icon in the top right hand corner derived from the W3C website and the source code was copied from there.
+
+The website logo was downloaded from http://nowgoplay.com/clip_art/sports/golf_courseclipart.html. The favicon was created from the logo image and was done so at
+http://www.favicon.co.uk/.
+
+The image (Golf Hawaii.jpg) on the home page (index.htm) was downloaded from http://www.dwalls.com/Nature/Hawaii/Golf+Hawaii.jpg.html?g2_imageViewsIndex=1
+
+The images for the products (drivers, irons and putters) all derived from http://shop.callawaygolf.com/?gcid=g201.
+
+The Guest to the site enters the homepage and is prompted to enter a password. If the password matches he is signed in as the ID befor him.
+If the passwords do not match he is prompted to enter a new username. The username is written to the homepage inside the links div box.
+After signing in the guest can then choose wich page to jump to, either drivers, irons or putters. Each page has a form for the guest to choose which item
+he wants to order, how many, where to ship them and how to pay for them. There is a submit button to send the information and a clear button which sets the form 
+elements empty.
+
